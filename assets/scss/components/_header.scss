@@ -60,6 +60,10 @@
   transition: 0.4s;
 }
 
+.theme-button {
+  display: flex;
+}
+
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 // @@@@@@@@@        JS CLASSES         @@@@@@@@@
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -128,10 +132,12 @@
     right: 1.5rem;
   }
 
-  .nav__list i,
-  .nav__close,
-  .nav__toggle {
+  .nav__list i {
     display: block;
+  }
+
+  .nav__toggle {
+    display: flex;
   }
 
   // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

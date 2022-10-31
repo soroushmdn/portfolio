@@ -4,7 +4,7 @@
 const preloader = document.querySelector('.preloader');
 setTimeout(() => {
   preloader.classList.add('preloader-opacity');
-}, 2500);
+}, 3000);
 
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 // @@@@@@@@@       ADD HEADER BOX SHADOW       @@@@@@@@@
@@ -287,24 +287,24 @@ window.addEventListener('scroll', function () {
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 // @@@@@@@@@        scrollrevealjs.org         @@@@@@@@@
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-// const sr = ScrollReveal({
-//   origin: 'top',
-//   distance: '50px',
-//   duration: 2500,
-//   delay: 300,
-// });
+const sr = ScrollReveal({
+  origin: 'top',
+  distance: '50px',
+  duration: 2500,
+  delay: 300,
+});
 
-// sr.reveal(
-//   `.home__title , .home__center , .accordions-right , .accordions-left , .qualifications__box , .projects__swiper-container , .testimonials__swiper`
-// );
+sr.reveal(
+  `.home__title , .home__center , .accordions-right , .accordions-left , .qualifications__box , .projects__swiper-container , .testimonials__swiper`
+);
 
-// sr.reveal(`.services__card , .input-field , .textarea-field , input[type='submit'] , .contact__link`, {
-//   interval: 200,
-// });
+sr.reveal(`.services__card , .input-field , .textarea-field , input[type='submit'] , .contact__link`, {
+  interval: 200,
+});
 
-// sr.reveal(``, { origin: 'bottom' });
-// sr.reveal(
-//   `.home__bio-left , .input-field , .textarea-field , input[type='submit']`,
-//   { origin: 'left' }
-// );
-// sr.reveal(`.home__bio-right , .contact__link`, { origin: 'right' });
+sr.reveal(``, { origin: 'bottom' });
+sr.reveal(
+  `.home__bio-left , .input-field , .textarea-field , input[type='submit']`,
+  { origin: 'left' }
+);
+sr.reveal(`.home__bio-right , .contact__link`, { origin: 'right' });

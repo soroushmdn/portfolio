@@ -24,6 +24,11 @@
 .nav__logo {
   gap: 0.2rem;
 
+  img{
+    width: 32px;
+    height: 32px;
+  }
+
   span {
     font-family: 'logo';
     color: var(--first-color);

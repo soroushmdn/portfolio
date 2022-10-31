@@ -1,0 +1,89 @@
+.testimonials {
+  position: relative;
+
+  .testimonials__svg {
+    position: absolute;
+    bottom: 8rem;
+    right: 3rem;
+    transform: rotate(25deg);
+    opacity: 0.4;
+  }
+
+  .testimonials__content {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+
+    .testimonials__description {
+      line-height: 2.2;
+      margin-bottom: 2rem;
+
+      img:first-child {
+        transform: scaleX(-1);
+      }
+    }
+
+    .testimonials__img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@       SWIPER       @@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .testimonials__swiper {
+    max-width: 500px;
+    padding-bottom: 5rem;
+  }
+
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    content: '';
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: initial;
+    bottom: 0;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    i {
+      color: var(--first-color);
+      font-size: 1.5rem;
+    }
+  }
+
+  .swiper-button-next {
+    left: calc(50% - 2.5rem);
+  }
+
+  .swiper-button-prev {
+    right: calc(50% - 2.5rem);
+  }
+}
+
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+// @@@@@@@@@        BREAKPOINTS        @@@@@@@@@
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@media (max-width: 1024px) {
+  .testimonials {
+    .testimonials__svg {
+      right: -3rem;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .testimonials {
+    .testimonials__svg {
+      width: 150px;
+      right: -5rem;
+      bottom: 5rem;
+    }
+  }
+}

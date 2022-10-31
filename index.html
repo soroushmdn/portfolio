@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@ FAVICON @@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@ icons.getbootstrap.com  @@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <link rel="stylesheet" href="./assets/css/bootstrap-icons.css" />
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@   swiperjs.com   @@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@   CSS   @@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title>Portfolio Website</title>
+  </head>
+  <body dir="rtl">
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@      PRELOADER       @@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- <div class="preloader">
+      <img src="./assets/img/portfolio.png" />
+    </div> -->
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@  HEADER  @@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <div class="overlay"></div>
+
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="#home" class="nav__logo">
+            <img src="./assets/img/favicon.png" alt="" />
+            <span>Portfolio</span>
+          </a>
+
+          <div class="nav__menu">
+            <ul class="nav__list">
+              <li>
+                <a href="#home" class="nav__link nav__link-active"
+                  ><i class="bi bi-house"></i><span>خانه</span></a
+                >
+              </li>
+              <li>
+                <a href="#skills" class="nav__link"
+                  ><i class="bi bi-trophy"></i><span>مهارت ها</span></a
+                >
+              </li>
+              <li>
+                <a href="#qualifiactions" class="nav__link"
+                  ><i class="bi bi-journals"></i><span>درباره من</span></a
+                >
+              </li>
+              <li>
+                <a href="#services" class="nav__link"
+                  ><i class="bi bi-briefcase"></i><span>خدمات</span></a
+                >
+              </li>
+              <li>
+                <a href="#projects" class="nav__link"
+                  ><i class="bi bi-card-image"></i><span>پروژه ها</span></a
+                >
+              </li>
+              <li>
+                <a href="#contact" class="nav__link"
+                  ><i class="bi bi-chat-square-text"></i
+                  ><span>تماس با من</span></a
+                >
+              </li>
+
+              <i class="bi bi-x-circle nav__close"></i>
+            </ul>
+
+            <i class="bi bi-moon-fill theme-button"></i>
+            <i class="bi bi-grid nav__toggle"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@   MAIN   @@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <main>
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@@@@@@@   HOME   @@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <section class="home section" id="home">
+        <div class="container">
+          <h1 class="home__title">
+            سلام من فرهاد هستم،
+            <br />
+            برنامه نویس فرانت اند.
+          </h1>
+
+          <div class="home__container section-border">
+            <div class="home__bio home__bio-right">
+              <div class="home__bio-data">
+                <small>بیوگرافی</small>
+                <p>
+                  سلام من فرهاد هستم.
+                  <br />
+                  برنامه نویس فرانت اند، عاشق طراحی وبسایت و ساکن تهران.
+                </p>
+              </div>
+
+              <div class="home__bio-data">
+                <small>تماس با من</small>
+                <p>
+                  ۹۸۹۱۲۴۱۵۰۵۱۵+
+                  <br />
+                  farhad@gmail.com
+                  <br />
+                  ایران ، تهران
+                </p>
+              </div>
+
+              <div class="home__bio-data">
+                <small> سرویس ها</small>
+                <p>
+                  طراحی وبسایت فروشگاهی
+                  <br />
+                  طراحی رابط کاربری
+                  <br />
+                  تولید محتوای اختصاصی
+                </p>
+              </div>
+            </div>
+
+            <div class="home__center">
+              <div class="home__img">
+                <img
+                  class="home__svg wawes"
+                  src="./assets/img/shape-wawes.svg"
+                />
+
+                <img
+                  class="home__svg circle"
+                  src="./assets/img/shape-circle.svg"
+                />
+                <img
+                  class="home__figure"
+                  src="./assets/img/home-img.png"
+                  alt="home image"
+                />
+              </div>
+
+              <div class="home__social">
+                <a href="https://github.com/soroushmdn" target="_blank"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a href="https://github.com/soroushmdn" target="_blank"
+                  ><i class="bi bi-dribbble"></i
+                ></a>
+                <a href="https://github.com/soroushmdn" target="_blank"
+                  ><i class="bi bi-github"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="home__bio home__bio-left">
+              <div class="home__bio-data">
+                <small>تجربه کاری</small>
+                <h2>۸ +</h2>
+              </div>
+              <div class="home__bio-data">
+                <small> پروژه ها</small>
+                <h2>۳۱ +</h2>
+              </div>
+              <div class="home__bio-data">
+                <small>شرکت های طرف همکاری </small>
+                <h2>۱۲ +</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@@@@@   SKILLS    @@@@@@@@@@@@ -->
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <section class="skills section" id="skills">
+        <div class="container">
+          <h2 class="section-title">مهارت ها</h2>
+          <small class="section-subtitle">سطح مهارت های من</small>
+
+          <div class="skills__container section-border">
+            <div class="accordions-right">
+              <div class="accordion">
+                <div class="accordion__header">
+                  <img src="./assets/img/frontend.png" alt="" />
+                  <div>
+                    <h3>توسعه دهنده فرانت اند</h3>
+                    <small>بیش از ۴ سال تجربه</small>
+                  </div>
+                  <i class="bi bi-chevron-down"></i>
+                </div>
+
+                <div class="accordion__content">
+                  <div class="accordion__skill">
+                    <div class="accordion__skill-top">
+                      <h4>HTML ۵</h4>
+                      <small>۹۰٪</small>
+                    </div>
+                    <div class="accordion__skill-progress">
+                      <div style="width: 90%"></div>
+                    </div>
+                  </div>
+
+                  <div class="accordion__skill">
+                    <div class="accordion__skill-top">
+                      <h4>CSS ۳</h4>
+                      <small>۸۰٪</small>
+                    </div>
+                    <div class="accordion__skill-progress">
+                      <div style="width: 80%"></div>
+                    </div>
+                  </div>
+
+                  <div class="accordion__skill">
+                    <div class="accordion__skill-top">
+                      <h4>JAVASCRIPT</h4>
+                      <small>۵۰٪</small>
+                    </div>
+                    <div class="accordion__skill-progress">
+                      <div style="width: 50%"></div>
+                    </div>
+                  </div>
+
+                  <div class="accordion__skill">
+                    <div class="accordion__skill-top">
+                      <h4>GIT</h4>
+                      <small>۸۰٪</small>
+                    </div>
+                    <div class="accordion__skill-progress">
+                      <div style="width: 80%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion">
+                <div class="accordion__header">
+                  <img src="./assets/img/backend.png" alt="" />
+                  <div>
+                    <h3>توسعه دهنده بک اند</h3>
+                    <small>بیش از ۲ سال تجربه</small>
+                  </div>
+                  <i class="bi bi-chevron-down"></i>
+                </div>
+
+                <div class="accordion__content">
+                  <div class="accordion__skill">
+                    <div class="accordion__skill-top">
+                      <h4>PHP</h4>
+                      <small>۷۰٪</small>
+                    </div>
+                    <div class="accordion__skill-progress">
+                      <div style="width: 70%"></div>
+                    </div>
+                  </div>
+
+                  <div class="accordion__skill">
+                    <div class="accordion__skill-top">
+                      <h4>NODE JS</h4>
+                      <small>۸۰٪</small>
+                    </div>
+                    <div class="accordion__skill-progress">
+                      <div style="width: 80%"></div>
+                    </div>
+                  </div>
+
+                  <div class="accordion__skill">
+                    <div class="accordion__skill-top">
+                      <h4>FIREBASE</h4>
+                      <small>۵۰٪</small>
+                    </div>
+                    <div class="accordion__skill-progress">
+                      <div style="width: 50%"></div>
+                    </div>
+                  </div>
+
+                  <div class="accordion__skill">
+                    <div class="accordion__skill-top">
+                      <h4>PYTHON</h4>
+                      <small>۹۰٪</small>
+                    </div>
+                    <div class="accordion__skill-progress">
+                      <div style="width: 90%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordions-left">
+              <div class="accordion">
+                <div class="accordion__header">
+                  <img src="./assets/img/design.png" alt="" />
+                  <div>
+                    <h3>طراح رابط کاربری</h3>
+                    <small>بیش از ۵ سال تجربه</small>
+                  </div>
+                  <i class="bi bi-chevron-down"></i>
+                </div>
+
+                <div class="accordion__content">
+                  <div class="accordion__skill">
+                    <div class="accordion__skill-top">
+                      <h4>FIGMA</h4>
+                      <small>۹۰٪</small>
+                    </div>
+                    <div class="accordion__skill-progress">
+                      <div style="width: 90%"></div>
+                    </div>
+                  </div>
+
+                  <div class="accordion__skill">
+                    <div class="accordion__skill-top">
+                      <h4>ADOBE XD</h4>
+                      <small>۵۰٪</small>
+                    </div>
+                    <div class="accordion__skill-progress">
+                      <div style="width: 50%"></div>
+                    </div>
+                  </div>
+
+                  <div class="accordion__skill">
+                    <div class="accordion__skill-top">
+                      <h4>PHOTOSHOP</h4>
+                      <small>۷۰٪</small>
+                    </div>
+                    <div class="accordion__skill-progress">
+                      <div style="width: 70%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@    QUALIFICATIONS    @@@@@@@ -->
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <section class="qualifications section" id="qualifiactions">
+        <img src="./assets/img/shape-circle.svg" class="qualifications__svg" />
+
+        <div class="container">
+          <h2 class="section-title">درباره من</h2>
+          <small class="section-subtitle"> تحصیلات و تجربه های کاری من</small>
+
+          <div class="qualifications__filters">
+            <div class="qualifications__filter active" data-filter=".works">
+              <i class="bi bi-briefcase"></i><span>سوابق شغلی</span>
+            </div>
+
+            <div class="qualifications__filter" data-filter=".educations">
+              <i class="bi bi-mortarboard"></i><span>تحصیلات</span>
+            </div>
+          </div>
+
+          <div class="qualifications__container section-border">
+            <div class="qualifications__box mix works">
+              <div class="qualifications__period">
+                <div class="qualifications__data">
+                  <h3>توسعه دهنده فرانت اند</h3>
+                  <p>تهران - آسیاتک</p>
+                  <small><i class="bi bi-calendar2"></i>۱۳۹۴ - ۱۳۹۸</small>
+                </div>
+
+                <div class="qualifications__shape">
+                  <div class="circle"></div>
+                  <div class="line"></div>
+                </div>
+
+                <div class="qualifications__data"></div>
+              </div>
+
+              <div class="qualifications__period">
+                <div class="qualifications__data"></div>
+
+                <div class="qualifications__shape">
+                  <div class="circle"></div>
+                  <div class="line"></div>
+                </div>
+
+                <div class="qualifications__data">
+                  <h3>طراح رابط کاربری</h3>
+                  <p>دبی - Almeydan.io</p>
+                  <small><i class="bi bi-calendar2"></i>۱۳۹۹ - ۱۴۰۱</small>
+                </div>
+              </div>
+
+              <div class="qualifications__period">
+                <div class="qualifications__data">
+                  <h3>UI/UX Designer</h3>
+                  <p>تهران - رهنما کالج</p>
+                  <small><i class="bi bi-calendar2"></i>۱۳۹۵ - ۱۴۰۰</small>
+                </div>
+
+                <div class="qualifications__shape">
+                  <div class="circle"></div>
+                  <div class="line"></div>
+                </div>
+
+                <div class="qualifications__data"></div>
+              </div>
+
+              <div class="qualifications__period">
+                <div class="qualifications__data"></div>
+
+                <div class="qualifications__shape">
+                  <div class="circle"></div>
+                </div>
+
+                <div class="qualifications__data">
+                  <h3>توسعه دهنده فرانت اند</h3>
+                  <p>تهران - کدینگ فرانت</p>
+                  <small><i class="bi bi-calendar2"></i>۱۳۹۸ - ۱۴۰۰</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="qualifications__box mix educations">
+              <div class="qualifications__period">
+                <div class="qualifications__data">
+                  <h3>کارشناسی نرم افزار</h3>
+                  <p>تهران - دانشگاه امیرکبیر</p>
+                  <small><i class="bi bi-calendar2"></i>۱۳۸۵ - ۱۳۹۰</small>
+                </div>
+
+                <div class="qualifications__shape">
+                  <div class="circle"></div>
+                  <div class="line"></div>
+                </div>
+
+                <div class="qualifications__data"></div>
+              </div>
+
+              <div class="qualifications__period">
+                <div class="qualifications__data"></div>
+
+                <div class="qualifications__shape">
+                  <div class="circle"></div>
+                  <div class="line"></div>
+                </div>
+
+                <div class="qualifications__data">
+                  <h3>برنامه نویسی فرانت اند</h3>
+                  <p>تهران - رهنما کالج</p>
+                  <small><i class="bi bi-calendar2"></i>۱۳۹۰ - ۱۳۹۲</small>
+                </div>
+              </div>
+
+              <div class="qualifications__period">
+                <div class="qualifications__data">
+                  <h3>طراحی رابط کاربری</h3>
+                  <p>تهران - مجتمع فنی تهران</p>
+                  <small><i class="bi bi-calendar2"></i>۱۳۹۲ - ۱۳۹۴</small>
+                </div>
+
+                <div class="qualifications__shape">
+                  <div class="circle"></div>
+                </div>
+
+                <div class="qualifications__data"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@       SERVICES       @@@@@@@ -->
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <section class="services section" id="services">
+        <div class="container">
+          <h2 class="section-title">خدمات</h2>
+          <small class="section-subtitle">بسته های پیشنهادی من</small>
+
+          <div class="servicess__container section-border">
+            <div class="services__card">
+              <i class="bi bi-pc-display-horizontal services__icon"></i>
+              <h3 class="services__title">توسعه و طراحی وبسایت</h3>
+              <small class="services__description">
+                بسته ای که من با سال ها تجربه کاری در حوزه طراحی وب به شما
+                پیشنهاد میکنم که بیشترین تقاضای مشتری رو برای شما به همراه داره
+                و پشتیبانی اون صد در صد تضمین شده است.
+              </small>
+              <button class="services__button">
+                <span>بیشتر بدانید</span><i class="bi bi-cursor"></i>
+              </button>
+
+              <div class="services__modal">
+                <div class="services__modal-content">
+                  <i class="bi bi-x-circle services__modal-close"></i>
+
+                  <h3>توسعه و طراحی وبسایت</h3>
+                  <ul>
+                    <li>
+                      <i class="bi bi-check2-circle"></i
+                      ><small
+                        >طراحی وبسایتی منحصر به فرد و جذاب برای کسب و کار
+                        شما.</small
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-circle"></i
+                      ><small
+                        >رعایت تمامی استاندارد های روز دنیا در زمینه طراحی
+                        وبسایت.</small
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-circle"></i
+                      ><small
+                        >طراحی وبسایتی واکنشگرا و تطبیق پذیر با انواع سخت افزار
+                        های روز دنیا.</small
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-circle"></i
+                      ><small
+                        >رعایت تمامی استاندارد های سئو جهت بهینه سازی برای موتور
+                        های جستجو.</small
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="services__card">
+              <i class="bi bi-columns services__icon"></i>
+              <h3 class="services__title">طراحی رابط کاربری</h3>
+              <small class="services__description">
+                بسته ای که من با سال ها تجربه کاری در حوزه طراحی وب به شما
+                پیشنهاد میکنم که بیشترین تقاضای مشتری رو برای شما به همراه داره
+                و پشتیبانی اون صد در صد تضمین شده است.
+              </small>
+              <button class="services__button">
+                <span>بیشتر بدانید</span><i class="bi bi-cursor"></i>
+              </button>
+
+              <div class="services__modal">
+                <div class="services__modal-content">
+                  <i class="bi bi-x-circle services__modal-close"></i>
+
+                  <h3>طراحی رابط کاربری</h3>
+                  <ul>
+                    <li>
+                      <i class="bi bi-check2-circle"></i
+                      ><small
+                        >طراحی وبسایتی منحصر به فرد و جذاب برای کسب و کار
+                        شما.</small
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-circle"></i
+                      ><small
+                        >رعایت تمامی استاندارد های روز دنیا در زمینه طراحی
+                        وبسایت.</small
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-circle"></i
+                      ><small
+                        >طراحی وبسایتی واکنشگرا و تطبیق پذیر با انواع سخت افزار
+                        های روز دنیا.</small
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-circle"></i
+                      ><small
+                        >رعایت تمامی استاندارد های سئو جهت بهینه سازی برای موتور
+                        های جستجو.</small
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="services__card">
+              <i class="bi bi-card-text services__icon"></i>
+              <h3 class="services__title">تولید محتوای اختصاصی</h3>
+              <small class="services__description">
+                بسته ای که من با سال ها تجربه کاری در حوزه طراحی وب به شما
+                پیشنهاد میکنم که بیشترین تقاضای مشتری رو برای شما به همراه داره
+                و پشتیبانی اون صد در صد تضمین شده است.
+              </small>
+              <button class="services__button">
+                <span>بیشتر بدانید</span><i class="bi bi-cursor"></i>
+              </button>
+
+              <div class="services__modal">
+                <div class="services__modal-content">
+                  <i class="bi bi-x-circle services__modal-close"></i>
+
+                  <h3>تولید محتوای اختصاصی</h3>
+                  <ul>
+                    <li>
+                      <i class="bi bi-check2-circle"></i
+                      ><small
+                        >طراحی وبسایتی منحصر به فرد و جذاب برای کسب و کار
+                        شما.</small
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-circle"></i
+                      ><small
+                        >رعایت تمامی استاندارد های روز دنیا در زمینه طراحی
+                        وبسایت.</small
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-circle"></i
+                      ><small
+                        >طراحی وبسایتی واکنشگرا و تطبیق پذیر با انواع سخت افزار
+                        های روز دنیا.</small
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-circle"></i
+                      ><small
+                        >رعایت تمامی استاندارد های سئو جهت بهینه سازی برای موتور
+                        های جستجو.</small
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@       PROJECTS       @@@@@@@ -->
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <section class="projects section" id="projects">
+        <div class="container">
+          <h2 class="section-title">پروژه ها</h2>
+          <small class="section-subtitle">آخرین پروژه های من</small>
+
+          <div class="section-border">
+            <div class="projects__swiper-container">
+              <div class="swiper projects__swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide projects__card">
+                    <div class="projects__img">
+                      <img src="./assets/img/project-1.png" alt="" />
+                    </div>
+
+                    <a
+                      class="projects__link"
+                      href="https://7learn.com/"
+                      target="_blank"
+                    >
+                      وبسایت آموزشی سون لرن
+                    </a>
+                  </div>
+
+                  <div class="swiper-slide projects__card">
+                    <div class="projects__img">
+                      <img src="./assets/img/project-2.png" alt="" />
+                    </div>
+
+                    <a
+                      class="projects__link"
+                      href="https://namdaran.co/"
+                      target="_blank"
+                    >
+                      وبسایت فروشگاهی نامداران
+                    </a>
+                  </div>
+
+                  <div class="swiper-slide projects__card">
+                    <div class="projects__img">
+                      <img src="./assets/img/project-3.png" alt="" />
+                    </div>
+
+                    <a
+                      class="projects__link"
+                      href="https://www.banimode.com/"
+                      target="_blank"
+                    >
+                      وبسایت فروشگاهی بانی مد
+                    </a>
+                  </div>
+
+                  <div class="swiper-slide projects__card">
+                    <div class="projects__img">
+                      <img src="./assets/img/project-4.png" alt="" />
+                    </div>
+
+                    <a
+                      class="projects__link"
+                      href="https://rahnemacollege.com/"
+                      target="_blank"
+                    >
+                      وبسایت آموزشی رهنما کالج
+                    </a>
+                  </div>
+
+                  <div class="swiper-slide projects__card">
+                    <div class="projects__img">
+                      <img src="./assets/img/project-5.png" alt="" />
+                    </div>
+
+                    <a
+                      class="projects__link"
+                      href="https://jeanswest.ir/fa"
+                      target="_blank"
+                    >
+                      وبسایت فروشگاهی جین وست
+                    </a>
+                  </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev">
+                  <i class="bi bi-chevron-right"></i>
+                </div>
+                <div class="swiper-button-next">
+                  <i class="bi bi-chevron-left"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@     TESTIMONIALS     @@@@@@@ -->
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <section class="testimonials section">
+        <img src="./assets/img/shape-wawes.svg" class="testimonials__svg" />
+
+        <div class="container">
+          <h2 class="section-title">نظرات کاربران</h2>
+          <small class="section-subtitle">نقطه نظرات کاربران همیشگی من</small>
+
+          <div class="section-border">
+            <div class="swiper testimonials__swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide testimonials__content">
+                  <p class="testimonials__description">
+                    <img src="./assets/img/quote-end.png" />
+
+                    برای من چندین سایت اختصاصی طراحی شد ولی بی استفاده ماند تا
+                    اینکه با فرهاد آشنا شدم و حقیقتا امکانات و طراحی جذاب ، پنل
+                    مدیریت پویا و پشتیبانی صبورانه فرهاد من رو جذب خودش نمود.
+
+                    <img src="./assets/img/quote-end.png" />
+                  </p>
+
+                  <img
+                    class="testimonials__img"
+                    src="./assets/img/testimonials-1.jpg"
+                    alt="testimonials-1"
+                  />
+                  <span>سعید رمضانی</span>
+                  <small>مدیریت فروشگاه اینترنتی جین وست</small>
+                </div>
+
+                <div class="swiper-slide testimonials__content">
+                  <p class="testimonials__description">
+                    <img src="./assets/img/quote-end.png" />
+
+                    من سال هاست سایت دارم و تا حالا با چندین شرکت ارائه دهنده
+                    خدمات طراحی سایت کار کردم که هیچ کدوم نتونستند به من کمک
+                    کنند تا اینکه سر انجام با فرهاد آشنا شدم و موفق شدم وبسایت
+                    خودم رو گسترش بدم و به فروش مد نظرم برسم.
+
+                    <img src="./assets/img/quote-end.png" />
+                  </p>
+
+                  <img
+                    class="testimonials__img"
+                    src="./assets/img/testimonials-2.jpg"
+                    alt="testimonials-1"
+                  />
+                  <span> سارا شاهی</span>
+                  <small>مدیریت فروشگاه اینترنتی نارون</small>
+                </div>
+
+                <div class="swiper-slide testimonials__content">
+                  <p class="testimonials__description">
+                    <img src="./assets/img/quote-end.png" />
+
+                    فرهاد علاوه بر خدمات پس از فروش فوق العاده ای که ارائه میده
+                    ، کار شرکت ما رو انقدر ساده کرده که پنجمین وبسات خودمون رو
+                    همین تازگی ها سفارش دادیم.
+
+                    <img src="./assets/img/quote-end.png" />
+                  </p>
+
+                  <img
+                    class="testimonials__img"
+                    src="./assets/img/testimonials-3.jpg"
+                    alt="testimonials-1"
+                  />
+                  <span>سامان مکتبی </span>
+                  <small>مدیریت فروشگاه اینترنتی نامداران </small>
+                </div>
+              </div>
+
+              <div class="swiper-button-prev">
+                <i class="bi bi-chevron-right"></i>
+              </div>
+              <div class="swiper-button-next">
+                <i class="bi bi-chevron-left"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@       CONTACT        @@@@@@@ -->
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <h2 class="section-title">تماس با من</h2>
+          <small class="section-subtitle">راه های ارتباطی با من</small>
+
+          <div class="contact__container section-border">
+            <div class="contact__links">
+              <div class="contact__link">
+                <i class="bi bi-telephone"></i>
+                <p>با من تماس بگیرید</p>
+                <a href="tel:+989353770255">تماس </a>
+              </div>
+
+              <div class="contact__link">
+                <i class="bi bi-telegram"></i>
+                <p>در تلگرام به من پیغام دهید</p>
+                <a href="https://telegram.me/Ssky1993" target="_blank"
+                  >تلگرام</a
+                >
+              </div>
+
+              <div class="contact__link">
+                <i class="bi bi-whatsapp"></i>
+                <p>در واتس اَپ به من پیغام دهید</p>
+                <a
+                  href="https://api.whatsapp.com/send?phone=+989353770255&text=سلام ، لطفا برای من یک وبسایت فوق العاده طراحی کنید."
+                  target="_blank"
+                  >واتس اَپ</a
+                >
+              </div>
+            </div>
+
+            <form class="contact__form" id="contact-form">
+              <div class="input-field">
+                <input
+                  placeholder="نام خود را وارد کنید"
+                  type="text"
+                  name="user_name"
+                />
+                <label>نام</label>
+              </div>
+
+              <div class="input-field">
+                <input
+                  placeholder="ایمیل خود را وارد کنید"
+                  type="email"
+                  name="user_email"
+                />
+                <label>ایمیل</label>
+              </div>
+
+              <div class="textarea-field">
+                <textarea
+                  placeholder="پروژه خود را شرح دهید"
+                  name="user_project"
+                ></textarea>
+                <label>پروژه</label>
+
+                <p class="message"></p>
+              </div>
+
+              <input type="submit" value="ارسال" />
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@        FOOTER        @@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <footer class="footer">
+      <img src="./assets/img/shape-circle.svg" class="footer__svg-right" />
+      <img src="./assets/img/shape-wawes.svg" class="footer__svg-left" />
+
+      <div class="container">
+        <div class="footer__container">
+          <a href="#home" class="footer__logo">
+            <img src="./assets/img/favicon.png" />
+            <span>Portfolio</span>
+          </a>
+
+          <p class="footer__description">
+            من فرهاد مهراد هستم. به وبسایت شخصی من خوش آمدید.
+          </p>
+
+          <div class="footer__links">
+            <a href="#home">خانه</a>
+            <a href="#projects">پروژه ها</a>
+            <a href="#services">خدمات</a>
+          </div>
+
+          <div class="footer__social">
+            <a href="https://github.com/soroushmdn" target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="https://github.com/soroushmdn" target="_blank"
+              ><i class="bi bi-dribbble"></i
+            ></a>
+            <a href="https://github.com/soroushmdn" target="_blank"
+              ><i class="bi bi-github"></i
+            ></a>
+          </div>
+
+          <p dir="ltr" class="footer__copy">
+            &copy; 2022 coded by
+            <a href="https://github.com/soroushmdn" target="_blank">Soroush Karimi.</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@      SCROLL UP       @@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <a href="#" class="scrollup">
+      <i class="bi bi-arrow-up-circle-fill"></i>
+    </a>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@  kunkalabs.com/mixitup/   @@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <script src="./assets/js/mixitup.min.js"></script>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@   swiperjs.com   @@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@    emailjs.com   @@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <script type="text/javascript" src="./assets/js/email.min.js"></script>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@    scrollrevealjs.org   @@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@     JS      @@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

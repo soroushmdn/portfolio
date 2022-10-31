@@ -35,6 +35,13 @@
     display: flex;
     align-items: center;
     gap: 0.2rem;
+  }
+
+  .footer__logo {
+    img {
+      width: 32px;
+      height: 32px;
+    }
 
     span {
       font-family: 'logo';

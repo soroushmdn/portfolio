@@ -1,5 +1,5 @@
 # 👨‍🎓 portfolio
-###A clean and nice web portfolio for designer or developer That includes almost everything you want to show.
+### A clean and nice web portfolio for designer or developer That includes almost everything you want to show.
 - Contains animations when scrolling.
 - Contains minimalist Preloader animation.
 - Developed first for Desktop then for Mobile devices.

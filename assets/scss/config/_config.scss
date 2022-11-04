@@ -268,6 +268,14 @@ textarea {
   .section-title {
     font-size: 2.2rem;
   }
+
+  .scrollup {
+    bottom: -30%;
+  }
+
+  .show-scrollup {
+    bottom: 6rem;
+  }
 }
 
 @media (max-width: 575px) {
@@ -289,16 +297,6 @@ textarea {
 
   .scrollup {
     left: 1.5rem;
-  }
-}
-
-@media (max-width: 767px) {
-  .scrollup {
-    bottom: -30%;
-  }
-
-  .show-scrollup {
-    bottom: 6rem;
   }
 }
 

@@ -208,7 +208,7 @@ textarea {
   }
 }
 
-.preloader.preloader-opacity {
+.preloader-opacity {
   opacity: 0;
   pointer-events: none;
 }
@@ -234,7 +234,7 @@ textarea {
   opacity: 1;
 }
 
-.scrollup.show-scrollup {
+.show-scrollup {
   bottom: 3rem;
 }
 
@@ -269,10 +269,6 @@ textarea {
 @media (max-width: 767px) {
   .section-title {
     font-size: 2.2rem;
-  }
-
-  .scrollup {
-    bottom: -30%;
   }
 
   .show-scrollup {

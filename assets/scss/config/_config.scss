@@ -48,7 +48,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
   font-family: '500';
   color: var(--text-color);
 }
@@ -57,6 +56,10 @@ body {
   font-size: var(--normal-font-size);
   background: var(--body-color);
   transition: background 0.4s;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 main {
@@ -218,7 +221,6 @@ textarea {
   left: 2rem;
   bottom: -30%;
   z-index: 99;
-  cursor: pointer;
   opacity: 0.5;
   transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
@@ -232,7 +234,7 @@ textarea {
   opacity: 1;
 }
 
-.show-scrollup {
+.scrollup.show-scrollup {
   bottom: 3rem;
 }
 

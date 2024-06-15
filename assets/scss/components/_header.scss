@@ -1,0 +1,165 @@
+.header {
+  background: var(--body-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  transition: 0.4s;
+}
+
+.nav,
+.nav__logo,
+.nav__menu,
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  height: 4rem;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  gap: 0.2rem;
+
+  img {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+.nav__menu,
+.nav__list {
+  gap: 1.5rem;
+}
+
+.nav__link span,
+.nav__link i {
+  transition: 0.4s;
+}
+
+.nav__link:hover span,
+.nav__link:hover i {
+  color: var(--first-color);
+}
+
+.nav__list i,
+.nav__close,
+.nav__toggle {
+  display: none;
+}
+
+.theme-button,
+.nav__toggle,
+.nav__close {
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.theme-button {
+  display: flex;
+}
+
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+// @@@@@@@@@        JS CLASSES         @@@@@@@@@
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+.header-shadow {
+  box-shadow: 0 2px 5px 0 var(--box-shadow-color);
+}
+
+.nav__link-active span,
+.nav__link-active i {
+  color: var(--first-color);
+}
+
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+// @@@@@@@@@        BREAKPOINTS        @@@@@@@@@
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@media (max-width: 1024px) {
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: hsla(207, 65%, 60%, 0.2);
+    backdrop-filter: blur(10px);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s;
+  }
+
+  .header {
+    top: initial;
+    left: 0;
+    right: 0;
+    bottom: 2rem;
+    width: 60%;
+    margin: auto;
+    border-radius: 3rem;
+    box-shadow: 0 2px 5px 0 var(--box-shadow-color);
+  }
+
+  .nav__list {
+    background: var(--body-color);
+    box-shadow: 0 2px 5px 0 var(--box-shadow-color);
+    position: absolute;
+    bottom: -20rem;
+    left: 0;
+    width: 100%;
+    padding: 1rem 1rem 4rem;
+    border-radius: 2rem;
+    transition: 0.4s;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+
+  .nav__link {
+    text-align: center;
+  }
+
+  .nav__close {
+    position: absolute;
+    bottom: 1rem;
+    right: 1.5rem;
+  }
+
+  .nav__list i {
+    display: block;
+  }
+
+  .nav__toggle {
+    display: flex;
+  }
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  // @@@@@@@@@        JS CLASSES         @@@@@@@@@
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  .show-overlay {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .show-nav {
+    bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    width: 90%;
+  }
+
+  .nav__logo {
+    img {
+      width: 32px;
+      height: 32px;
+    }
+  }
+}

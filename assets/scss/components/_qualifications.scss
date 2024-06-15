@@ -1,0 +1,112 @@
+.qualifications {
+  position: relative;
+
+  .qualifications__svg {
+    opacity: 0.4;
+    position: absolute;
+    width: 250px;
+    bottom: 7rem;
+    left: -5rem;
+  }
+
+  .qualifications__filters {
+    box-shadow: 0 2px 5px 0 var(--box-shadow-color);
+    display: flex;
+    gap: 1rem;
+    max-width: max-content;
+    margin-inline: auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .qualifications__filter {
+    padding: 0.7rem 1rem;
+    border-radius: 0.7rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+
+    i {
+      display: flex;
+      font-size: 1.2rem;
+    }
+  }
+
+  .qualifications__filter.active {
+    background: var(--first-color);
+    span,
+    i {
+      color: #fff;
+    }
+  }
+
+  .qualifications__box {
+    max-width: 500px;
+    margin: auto;
+    display: grid;
+  }
+
+  .qualifications__period {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+  }
+
+  .qualifications__data {
+    padding-bottom: 1rem;
+
+    p {
+      margin-bottom: 1rem;
+      color: var(--text-color-light);
+    }
+
+    small {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  }
+
+  .qualifications__shape {
+    display: grid;
+    justify-items: center;
+    grid-template-rows: max-content;
+
+    .circle {
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: var(--first-color);
+    }
+
+    .line {
+      width: 2px;
+      height: 100%;
+      background: var(--first-color);
+    }
+  }
+}
+
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+// @@@@@@@@@        BREAKPOINTS        @@@@@@@@@
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@media (max-width: 1024px) {
+  .qualifications {
+    .qualifications__svg {
+      width: 220px;
+      left: -5.5rem;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .qualifications {
+    .qualifications__svg {
+      width: 150px;
+      left: -5rem;
+      top: 16rem;
+      bottom: initial;
+    }
+  }
+}

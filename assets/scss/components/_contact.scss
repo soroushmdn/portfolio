@@ -1,0 +1,153 @@
+.contact {
+  .contact__container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: flex-start;
+    gap: 5rem;
+  }
+
+  .contact__links {
+    display: grid;
+    gap: 2rem;
+
+    .contact__link {
+      display: grid;
+      justify-items: center;
+      gap: 0.5rem;
+      text-align: center;
+      padding: 1rem;
+      box-shadow: 0 2px 5px 0 var(--box-shadow-color);
+      border-radius: 1rem;
+
+      i {
+        background: hsl(207, 65%, 70%);
+        color: #fff;
+        border-radius: 50%;
+        padding: 0.5rem;
+        display: flex;
+        transition: 0.3s;
+      }
+
+      p {
+        margin-bottom: 1rem;
+      }
+
+      a {
+        width: 100%;
+        background: var(--first-color);
+        color: #fff;
+        padding: 0.8rem;
+        border-radius: 0.7rem;
+        transition: 0.3s;
+      }
+    }
+
+    // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    // @@@@@@@@@       HOVER        @@@@@@@@@
+    // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    .contact__link:hover i {
+      transform: rotate(360deg);
+    }
+
+    .contact__link a:hover {
+      box-shadow: 0 0 10px 0 hsl(207, 65%, 55%);
+      background: hsl(207, 65%, 55%);
+    }
+  }
+
+  .contact__form {
+    display: grid;
+    gap: 2rem;
+
+    .input-field,
+    .textarea-field {
+      position: relative;
+
+      label {
+        font-size: 0.8rem;
+        position: absolute;
+        right: 1.5rem;
+        top: -0.6rem;
+        background: var(--body-color);
+        padding-inline: 1rem;
+        border-radius: 0.5rem;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        height: 100%;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        box-shadow: 0 2px 5px 0 var(--box-shadow-color);
+      }
+
+      input:focus,
+      textarea:focus {
+        box-shadow: 0 2px 5px 0 var(--first-color);
+      }
+    }
+
+    .input-field {
+      height: 80px;
+    }
+
+    .textarea-field {
+      height: 200px;
+    }
+
+    .message {
+      position: absolute;
+      bottom: -1.8rem;
+      right: 1.5rem;
+      color: var(--text-color-light);
+      font-size: 0.8rem;
+    }
+
+    input[type='submit'] {
+      background: var(--first-color);
+      color: #fff;
+      padding: 0.8rem 2rem;
+      margin-top: 1rem;
+      border-radius: 0.7rem;
+      cursor: pointer;
+      transition: 0.3s;
+      justify-self: end;
+    }
+
+    input[type='submit']:hover {
+      box-shadow: 0 0 10px 0 hsl(207, 65%, 55%);
+      background: hsl(207, 65%, 55%);
+    }
+
+    // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    // @@@@@@@@@        JS CLASSES         @@@@@@@@@
+    // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    .error-color {
+      color: red;
+    }
+
+    .check-color {
+      color: var(--first-color);
+    }
+  }
+}
+
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+// @@@@@@@@@        BREAKPOINTS        @@@@@@@@@
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@media (max-width: 1024px) {
+  .contact {
+    .contact__container {
+      gap: 3rem;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .contact {
+    .contact__container {
+      grid-template-columns: 1fr;
+    }
+  }
+}

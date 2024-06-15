@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@ FAVICON @@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.webp"
+      type="image/x-icon"
+    />
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@ icons.getbootstrap.com  @@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <link rel="stylesheet" href="./assets/css/bootstrap-icons.css" />
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@   swiperjs.com   @@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@   CSS   @@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title>Portfolio Website</title>
+  </head>
+  <body dir="rtl">
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@  HEADER  @@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <div class="overlay"></div>
+
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="#home" class="nav__logo">
+            <img src="./assets/img/favicon.webp" alt="logo" />
+          </a>
+
+          <div class="nav__menu">
+            <ul class="nav__list">
+              <li>
+                <a href="#home" class="nav__link nav__link-active"
+                  ><i class="bi bi-house"></i><span>خانه</span></a
+                >
+              </li>
+              <li>
+                <a href="#skills" class="nav__link"
+                  ><i class="bi bi-trophy"></i><span>مهارت ها</span></a
+                >
+              </li>
+              <li>
+                <a href="#qualifiactions" class="nav__link"
+                  ><i class="bi bi-journals"></i><span>درباره من</span></a
+                >
+              </li>
+              <li>
+                <a href="#services" class="nav__link"
+                  ><i class="bi bi-briefcase"></i><span>خدمات</span></a
+                >
+              </li>
+              <li>
+                <a href="#projects" class="nav__link"
+                  ><i class="bi bi-card-image"></i><span>پروژه ها</span></a
+                >
+              </li>
+              <li>
+                <a href="#contact" class="nav__link"
+                  ><i class="bi bi-chat-square-text"></i
+                  ><span>تماس با من</span></a
+                >
+              </li>
+
+              <i class="bi bi-x-circle nav__close"></i>
+            </ul>
+
+            <i class="bi bi-moon-fill theme-button"></i>
+            <i class="bi bi-grid nav__toggle"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@   MAIN   @@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <main>
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@@@@@@@   HOME   @@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <section class="home section" id="home">
+        <div class="container">
+          <h1 class="home__title">
+            با من همراه شوید تا
+            <br />
+            رابط‌های کاربری شگفت‌انگیز خلق کنیم.
+          </h1>
+
+          <div class="home__container section-border">
+            <div class="home__bio home__bio-right">
+              <div class="home__bio-data">
+                <small>بیوگرافی</small>
+                <p>
+                  من سروش کریمی هستم، یک طراح UX/UI که به خلق رابط‌های کاربری
+                  کاربردی و جذاب برای کاربران علاقه‌مندم.
+                </p>
+              </div>
+
+              <div class="home__bio-data">
+                <small>تماس با من</small>
+                <p>
+                  ۰۹۳۵۳۷۷۰۲۵۵
+                  <br />
+                  sorooshkarimi93@gmail.com
+                  <br />
+                  ایران ، تهران
+                </p>
+              </div>
+
+              <div class="home__bio-data">
+                <small> سرویس ها</small>
+                <p>
+                  طراحی وبسایت فروشگاهی
+                  <br />
+                  طراحی رابط کاربری
+                  <br />
+                  تولید محتوای اختصاصی
+                </p>
+              </div>
+            </div>
+
+            <div class="home__center">
+              <div class="home__img">
+                <img
+                  class="home__svg wawes"
+                  src="./assets/img/shape-wawes.svg"
+                />
+
+                <img
+                  class="home__svg circle"
+                  src="./assets/img/shape-circle.svg"
+                />
+
+                <img
+                  class="home__figure"
+                  src="./assets/img/home-img.webp"
+                  alt="home image"
+                />
+              </div>
+
+              <div class="home__social">
+                <a href="https://www.linkedin.com/in/soroushkm/" target="_blank"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                      d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"
+                    />
+                    <path d="M8 11l0 5" />
+                    <path d="M8 8l0 .01" />
+                    <path d="M12 16l0 -5" />
+                    <path d="M16 16v-3a2 2 0 0 0 -4 0" /></svg
+                ></a>
+
+                <a href="https://dribbble.com/soroushkm" target="_blank"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-brand-dribbble"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                    <path d="M9 3.6c5 6 7 10.5 7.5 16.2" />
+                    <path d="M6.4 19c3.5 -3.5 6 -6.5 14.5 -6.4" />
+                    <path d="M3.1 10.75c5 0 9.814 -.38 15.314 -5" /></svg
+                ></a>
+
+                <a href="https://github.com/soroushmdn" target="_blank"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                      d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
+                    /></svg
+                ></a>
+
+                <a href="https://www.figma.com/@sorooshkarimi" target="_blank"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-brand-figma"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M15 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                    <path
+                      d="M6 3m0 3a3 3 0 0 1 3 -3h6a3 3 0 0 1 3 3v0a3 3 0 0 1 -3 3h-6a3 3 0 0 1 -3 -3z"
+                    />
+                    <path
+                      d="M9 9a3 3 0 0 0 0 6h3m-3 0a3 3 0 1 0 3 3v-15"
+                    /></svg
+                ></a>
+              </div>
+            </div>
+
+            <div class="home__bio home__bio-left">
+              <div class="home__bio-data">
+                <small>تجربه کاری</small>
+                <h2>۳ +</h2>
+              </div>
+              <div class="home__bio-data">
+                <small> پروژه ها</small>
+                <h2>۱۵ +</h2>
+              </div>
+              <div class="home__bio-data">
+                <small>شرکت های طرف همکاری </small>
+                <h2>۵ +</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@@@@@   SKILLS    @@@@@@@@@@@@ -->
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <section class="skills section" id="skills">
+        <div class="container">
+          <h2 class="section-title">مهارت ها</h2>
+          <small class="section-subtitle">سطح مهارت های من</small>
+
+          <div class="skills__container section-border">
+            <div class="accordions-right">
+              <div class="accordion">
+                <div class="accordion__header">
+                  <img src="./assets/img/frontend.webp" alt="" />
+                  <div>
+                    <h3>توسعه دهنده فرانت اند</h3>
+                    <small>بیش از ۲ سال تجربه</small>
+                  </div>
+                  <i class="bi bi-chevron-down"></i>
+                </div>
+
+                <div class="accordion__content">
+                  <div class="accordion__skill">
+                    <div class="accordion__skill-top">
+                      <h4>HTML ۵</h4>
+                      <small>۷۰٪</small>
+                    </div>
+                    <div class="accordion__skill-progress">
+                      <div style="width: 70%"></div>
+                    </div>
+                  </div>
+
+                  <div class="accordion__skill">
+                    <div class="accordion__skill-top">
+                      <h4>CSS ۳</h4>
+                      <small>۷۰٪</small>
+                    </div>
+                    <div class="accordion__skill-progress">
+                      <div style="width: 70%"></div>
+                    </div>
+                  </div>
+
+                  <div class="accordion__skill">
+                    <div class="accordion__skill-top">
+                      <h4>JAVASCRIPT</h4>
+                      <small>۲۰٪</small>
+                    </div>
+                    <div class="accordion__skill-progress">
+                      <div style="width: 20%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordions-left">
+              <div class="accordion">
+                <div class="accordion__header">
+                  <img src="./assets/img/design.webp" alt="" />
+                  <div>
+                    <h3>طراح رابط و تجربه کاربری</h3>
+                    <small>بیش از ۳ سال تجربه</small>
+                  </div>
+                  <i class="bi bi-chevron-down"></i>
+                </div>
+
+                <div class="accordion__content">
+                  <div class="accordion__skill">
+                    <div class="accordion__skill-top">
+                      <h4>FIGMA</h4>
+                      <small>۸۰٪</small>
+                    </div>
+                    <div class="accordion__skill-progress">
+                      <div style="width: 80%"></div>
+                    </div>
+                  </div>
+
+                  <div class="accordion__skill">
+                    <div class="accordion__skill-top">
+                      <h4>JITTER</h4>
+                      <small>۲۰٪</small>
+                    </div>
+                    <div class="accordion__skill-progress">
+                      <div style="width: 20%"></div>
+                    </div>
+                  </div>
+
+                  <div class="accordion__skill">
+                    <div class="accordion__skill-top">
+                      <h4>PHOTOSHOP</h4>
+                      <small>۳۰٪</small>
+                    </div>
+                    <div class="accordion__skill-progress">
+                      <div style="width: 30%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@    QUALIFICATIONS    @@@@@@@ -->
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <section class="qualifications section" id="qualifiactions">
+        <img src="./assets/img/shape-circle.svg" class="qualifications__svg" />
+
+        <div class="container">
+          <h2 class="section-title">درباره من</h2>
+          <small class="section-subtitle"> تحصیلات و تجربه های کاری من</small>
+
+          <div class="qualifications__filters">
+            <div class="qualifications__filter active" data-filter=".works">
+              <i class="bi bi-briefcase"></i><span>سوابق شغلی</span>
+            </div>
+
+            <div class="qualifications__filter" data-filter=".educations">
+              <i class="bi bi-mortarboard"></i><span>تحصیلات</span>
+            </div>
+          </div>
+
+          <div class="qualifications__container section-border">
+            <div class="qualifications__box mix works">
+              <div class="qualifications__period">
+                <div class="qualifications__data">
+                  <h3>کارشناس فروش</h3>
+                  <p>GreenMotor</p>
+                  <small><i class="bi bi-calendar2"></i>۱۴۰۱ - ۱۳۹۸</small>
+                </div>
+
+                <div class="qualifications__shape">
+                  <div class="circle"></div>
+                  <div class="line"></div>
+                </div>
+
+                <div class="qualifications__data"></div>
+              </div>
+
+              <div class="qualifications__period">
+                <div class="qualifications__data"></div>
+
+                <div class="qualifications__shape">
+                  <div class="circle"></div>
+                  <div class="line"></div>
+                </div>
+
+                <div class="qualifications__data">
+                  <h3>طراح رابط و تجربه کاربری</h3>
+                  <p>Freelancer</p>
+                  <small><i class="bi bi-calendar2"></i>۱۴۰۳ - ۱۴۰۱</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="qualifications__box mix educations">
+              <div class="qualifications__period">
+                <div class="qualifications__data">
+                  <h3>مهندسی مکانیک</h3>
+                  <p>تهران - دانشگاه آزاد شرق</p>
+                  <small><i class="bi bi-calendar2"></i>۱۳۹۰ - ۱۳۹۵</small>
+                </div>
+
+                <div class="qualifications__shape">
+                  <div class="circle"></div>
+                  <div class="line"></div>
+                </div>
+
+                <div class="qualifications__data"></div>
+              </div>
+
+              <div class="qualifications__period">
+                <div class="qualifications__data"></div>
+
+                <div class="qualifications__shape">
+                  <div class="circle"></div>
+                  <div class="line"></div>
+                </div>
+
+                <div class="qualifications__data">
+                  <h3>طراحی رابط و تجربه کاربری</h3>
+                  <p>تهران - آکادمی اسپیرال</p>
+                  <small><i class="bi bi-calendar2"></i> ۱۴۰۳ - ۱۴۰۳ </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@       SERVICES       @@@@@@@ -->
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <section class="services section" id="services">
+        <div class="container">
+          <h2 class="section-title">خدمات</h2>
+          <small class="section-subtitle">بسته های پیشنهادی من</small>
+
+          <div class="servicess__container section-border">
+            <div class="services__card">
+              <i class="bi bi-pc-display-horizontal services__icon"></i>
+              <h3 class="services__title">توسعه و طراحی وبسایت</h3>
+
+              <button class="services__button">
+                <span>بیشتر بدانید</span><i class="bi bi-cursor"></i>
+              </button>
+
+              <div class="services__modal">
+                <div class="services__modal-content">
+                  <i class="bi bi-x-circle services__modal-close"></i>
+
+                  <h3>توسعه و طراحی وبسایت</h3>
+                  <ul>
+                    <li>
+                      <i class="bi bi-check2-circle"></i
+                      ><small
+                        >طراحی وبسایتی منحصر به فرد و جذاب برای کسب و کار
+                        شما.</small
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-circle"></i
+                      ><small
+                        >رعایت تمامی استاندارد های روز دنیا در زمینه طراحی
+                        وبسایت.</small
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-circle"></i
+                      ><small
+                        >طراحی وبسایتی واکنشگرا و تطبیق پذیر با انواع سخت افزار
+                        های روز دنیا.</small
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-circle"></i
+                      ><small
+                        >رعایت تمامی استاندارد های سئو جهت بهینه سازی برای موتور
+                        های جستجو.</small
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="services__card">
+              <i class="bi bi-columns services__icon"></i>
+              <h3 class="services__title">طراحی رابط کاربری</h3>
+
+              <button class="services__button">
+                <span>بیشتر بدانید</span><i class="bi bi-cursor"></i>
+              </button>
+
+              <div class="services__modal">
+                <div class="services__modal-content">
+                  <i class="bi bi-x-circle services__modal-close"></i>
+
+                  <h3>طراحی رابط کاربری</h3>
+                  <ul>
+                    <li>
+                      <i class="bi bi-check2-circle"></i
+                      ><small
+                        >طراحی وبسایتی منحصر به فرد و جذاب برای کسب و کار
+                        شما.</small
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-circle"></i
+                      ><small
+                        >رعایت تمامی استاندارد های روز دنیا در زمینه طراحی
+                        وبسایت.</small
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-circle"></i
+                      ><small
+                        >طراحی وبسایتی واکنشگرا و تطبیق پذیر با انواع سخت افزار
+                        های روز دنیا.</small
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-circle"></i
+                      ><small
+                        >رعایت تمامی استاندارد های سئو جهت بهینه سازی برای موتور
+                        های جستجو.</small
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="services__card">
+              <i class="bi bi-card-text services__icon"></i>
+              <h3 class="services__title">تولید محتوای اختصاصی</h3>
+
+              <button class="services__button">
+                <span>بیشتر بدانید</span><i class="bi bi-cursor"></i>
+              </button>
+
+              <div class="services__modal">
+                <div class="services__modal-content">
+                  <i class="bi bi-x-circle services__modal-close"></i>
+
+                  <h3>تولید محتوای اختصاصی</h3>
+                  <ul>
+                    <li>
+                      <i class="bi bi-check2-circle"></i
+                      ><small
+                        >طراحی وبسایتی منحصر به فرد و جذاب برای کسب و کار
+                        شما.</small
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-circle"></i
+                      ><small
+                        >رعایت تمامی استاندارد های روز دنیا در زمینه طراحی
+                        وبسایت.</small
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-circle"></i
+                      ><small
+                        >طراحی وبسایتی واکنشگرا و تطبیق پذیر با انواع سخت افزار
+                        های روز دنیا.</small
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-circle"></i
+                      ><small
+                        >رعایت تمامی استاندارد های سئو جهت بهینه سازی برای موتور
+                        های جستجو.</small
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@       PROJECTS       @@@@@@@ -->
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <section class="projects section" id="projects">
+        <div class="container">
+          <h2 class="section-title">پروژه ها</h2>
+          <small class="section-subtitle">آخرین پروژه های من</small>
+
+          <div class="section-border">
+            <div class="projects__swiper-container">
+              <div class="swiper projects__swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide projects__card">
+                    <div class="projects__img">
+                      <img src="./assets/img/project-1.webp" alt="" />
+                    </div>
+
+                    <a
+                      class="projects__link"
+                      href="https://soroushmdn.github.io/nilper-tourister/"
+                      target="_blank"
+                    >
+                      نیلپر توریستر
+                    </a>
+                  </div>
+
+                  <div class="swiper-slide projects__card">
+                    <div class="projects__img">
+                      <img src="./assets/img/project-2.webp" alt="" />
+                    </div>
+
+                    <a
+                      class="projects__link"
+                      href="https://soroushmdn.github.io/hoffenberg/"
+                      target="_blank"
+                    >
+                      هوفنبرگ
+                    </a>
+                  </div>
+
+                  <div class="swiper-slide projects__card">
+                    <div class="projects__img">
+                      <img src="./assets/img/project-3.webp" alt="" />
+                    </div>
+
+                    <a
+                      class="projects__link"
+                      href="https://www.figma.com/community/file/1321483543560319156/vam30-lendtech-company-landing-page-redesign"
+                      target="_blank"
+                    >
+                      وامسی
+                    </a>
+                  </div>
+
+                  <div class="swiper-slide projects__card">
+                    <div class="projects__img">
+                      <img src="./assets/img/project-4.webp" alt="" />
+                    </div>
+
+                    <a
+                      class="projects__link"
+                      href="https://soroushmdn.github.io/shine-textile/"
+                      target="_blank"
+                    >
+                      نساجی شاین
+                    </a>
+                  </div>
+
+                  <div class="swiper-slide projects__card">
+                    <div class="projects__img">
+                      <img src="./assets/img/project-5.webp" alt="" />
+                    </div>
+
+                    <a
+                      class="projects__link"
+                      href="https://www.figma.com/community/file/1293238277032322239/azadi-hotel-hotel-landing-page-redesign"
+                      target="_blank"
+                    >
+                      هتل پارسیان آزادی
+                    </a>
+                  </div>
+
+                  <div class="swiper-slide projects__card">
+                    <div class="projects__img">
+                      <img src="./assets/img/project-6.webp" alt="" />
+                    </div>
+
+                    <a
+                      class="projects__link"
+                      href="https://armaniangroup.com/"
+                      target="_blank"
+                    >
+                      پتروشیمی آرمانیان
+                    </a>
+                  </div>
+
+                  <div class="swiper-slide projects__card">
+                    <div class="projects__img">
+                      <img src="./assets/img/project-7.webp" alt="" />
+                    </div>
+
+                    <a
+                      class="projects__link"
+                      href="https://www.figma.com/community/file/1264590164993698316/hydroderm-beauty-product-landing-page-redesign"
+                      target="_blank"
+                    >
+                      هیدرودرم
+                    </a>
+                  </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev">
+                  <i class="bi bi-chevron-right"></i>
+                </div>
+                <div class="swiper-button-next">
+                  <i class="bi bi-chevron-left"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@     TESTIMONIALS     @@@@@@@ -->
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <section class="testimonials section">
+        <img src="./assets/img/shape-wawes.svg" class="testimonials__svg" />
+
+        <div class="container">
+          <h2 class="section-title">نظرات کاربران</h2>
+          <small class="section-subtitle">نقطه نظرات کاربران همیشگی من</small>
+
+          <div class="section-border">
+            <div class="swiper testimonials__swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide testimonials__content">
+                  <p class="testimonials__description">
+                    <img src="./assets/img/quote-end.png" />
+
+                    برای من چندین سایت اختصاصی طراحی شد ولی بی استفاده ماند تا
+                    اینکه با سروش آشنا شدم و حقیقتا امکانات و طراحی جذاب ، پنل
+                    مدیریت پویا و پشتیبانی صبورانه سروش من رو جذب خودش نمود.
+
+                    <img src="./assets/img/quote-end.png" />
+                  </p>
+
+                  <img
+                    class="testimonials__img"
+                    src="./assets/img/testimonials-1.jpg"
+                    alt="testimonials-1"
+                  />
+                  <span>سعید رمضانی</span>
+                </div>
+
+                <div class="swiper-slide testimonials__content">
+                  <p class="testimonials__description">
+                    <img src="./assets/img/quote-end.png" />
+
+                    من سال هاست سایت دارم و تا حالا با چندین شرکت ارائه دهنده
+                    خدمات طراحی سایت کار کردم که هیچ کدوم نتونستند به من کمک
+                    کنند تا اینکه سر انجام با سروش آشنا شدم و موفق شدم وبسایت
+                    خودم رو گسترش بدم و به فروش مد نظرم برسم.
+
+                    <img src="./assets/img/quote-end.png" />
+                  </p>
+
+                  <img
+                    class="testimonials__img"
+                    src="./assets/img/testimonials-2.jpg"
+                    alt="testimonials-1"
+                  />
+                  <span> سارا شاهی</span>
+                </div>
+
+                <div class="swiper-slide testimonials__content">
+                  <p class="testimonials__description">
+                    <img src="./assets/img/quote-end.png" />
+
+                    سروش علاوه بر خدمات پس از فروش فوق العاده ای که ارائه میده ،
+                    کار شرکت ما رو انقدر ساده کرده که پنجمین وبسایت خودمون رو
+                    همین تازگی ها سفارش دادیم.
+
+                    <img src="./assets/img/quote-end.png" />
+                  </p>
+
+                  <img
+                    class="testimonials__img"
+                    src="./assets/img/testimonials-3.jpg"
+                    alt="testimonials-1"
+                  />
+                  <span>سامان مکتبی </span>
+                </div>
+              </div>
+
+              <div class="swiper-button-prev">
+                <i class="bi bi-chevron-right"></i>
+              </div>
+              <div class="swiper-button-next">
+                <i class="bi bi-chevron-left"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <!-- @@@@@@@@       CONTACT        @@@@@@@ -->
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <h2 class="section-title">تماس با من</h2>
+          <small class="section-subtitle">راه های ارتباطی با من</small>
+
+          <div class="contact__container section-border">
+            <div class="contact__links">
+              <div class="contact__link">
+                <i class="bi bi-telephone"></i>
+                <p>با من تماس بگیرید</p>
+                <a href="tel:+989353770255">تماس </a>
+              </div>
+
+              <div class="contact__link">
+                <i class="bi bi-telegram"></i>
+                <p>در تلگرام به من پیغام دهید</p>
+                <a href="https://telegram.me/Ssky1993" target="_blank"
+                  >تلگرام</a
+                >
+              </div>
+
+              <div class="contact__link">
+                <i class="bi bi-whatsapp"></i>
+                <p>در واتس اَپ به من پیغام دهید</p>
+                <a
+                  href="https://api.whatsapp.com/send?phone=+989353770255&text=سلام ، لطفا برای من یک وبسایت فوق العاده طراحی کنید."
+                  target="_blank"
+                  >واتس اَپ</a
+                >
+              </div>
+            </div>
+
+            <form class="contact__form" id="contact-form">
+              <div class="input-field">
+                <input
+                  placeholder="نام خود را وارد کنید"
+                  type="text"
+                  name="user_name"
+                />
+                <label>نام</label>
+              </div>
+
+              <div class="input-field">
+                <input
+                  placeholder="ایمیل خود را وارد کنید"
+                  type="email"
+                  name="user_email"
+                />
+                <label>ایمیل</label>
+              </div>
+
+              <div class="textarea-field">
+                <textarea
+                  placeholder="پروژه خود را شرح دهید"
+                  name="user_project"
+                ></textarea>
+                <label>پروژه</label>
+
+                <p class="message"></p>
+              </div>
+
+              <input type="submit" value="ارسال" />
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@        FOOTER        @@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <footer class="footer">
+      <img src="./assets/img/shape-circle.svg" class="footer__svg-right" />
+      <img src="./assets/img/shape-wawes.svg" class="footer__svg-left" />
+
+      <div class="container">
+        <div class="footer__container">
+          <a href="#home" class="footer__logo">
+            <img src="./assets/img/favicon.webp" />
+          </a>
+
+          <p class="footer__description">
+            من سروش کریمی هستم. به وبسایت شخصی من خوش آمدید.
+          </p>
+
+          <div class="footer__links">
+            <a href="#home">خانه</a>
+            <a href="#projects">پروژه ها</a>
+            <a href="#services">خدمات</a>
+          </div>
+
+          <div class="footer__social">
+            <a href="https://www.linkedin.com/in/soroushkm/" target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"
+                />
+                <path d="M8 11l0 5" />
+                <path d="M8 8l0 .01" />
+                <path d="M12 16l0 -5" />
+                <path d="M16 16v-3a2 2 0 0 0 -4 0" /></svg
+            ></a>
+
+            <a href="https://dribbble.com/soroushkm" target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-brand-dribbble"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                <path d="M9 3.6c5 6 7 10.5 7.5 16.2" />
+                <path d="M6.4 19c3.5 -3.5 6 -6.5 14.5 -6.4" />
+                <path d="M3.1 10.75c5 0 9.814 -.38 15.314 -5" /></svg
+            ></a>
+
+            <a href="https://github.com/soroushmdn" target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
+                /></svg
+            ></a>
+
+            <a href="https://www.figma.com/@sorooshkarimi" target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-brand-figma"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M15 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                <path
+                  d="M6 3m0 3a3 3 0 0 1 3 -3h6a3 3 0 0 1 3 3v0a3 3 0 0 1 -3 3h-6a3 3 0 0 1 -3 -3z"
+                />
+                <path d="M9 9a3 3 0 0 0 0 6h3m-3 0a3 3 0 1 0 3 3v-15" /></svg
+            ></a>
+          </div>
+
+          <p dir="ltr" class="footer__copy">
+            &copy; 2023 design & coded by
+            <a href="https://github.com/soroushmdn" target="_blank"
+              >Soroush Karimi.</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@      SCROLL UP       @@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <a href="#" class="scrollup">
+      <i class="bi bi-arrow-up-circle-fill"></i>
+    </a>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@  kunkalabs.com/mixitup/   @@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <script src="./assets/js/mixitup.min.js"></script>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@   swiperjs.com   @@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@    emailjs.com   @@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <script type="text/javascript" src="./assets/js/email.min.js"></script>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@    scrollrevealjs.org   @@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@     JS      @@@@@@@@@@@@ -->
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
